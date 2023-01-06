@@ -2,7 +2,9 @@ package joos.core.discount;
 
 import joos.core.member.Grade;
 import joos.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int discountPercent = 10;
